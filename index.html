@@ -1,105 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Personal Brand</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-+Re3gNtf4jdtfH+pwql7pNJYiK8ZvSlE6dq+ccJ23nkZ/qSFkC0uY6nAJ84QPfa5kNid4/wZ0C0cP8+L0p+uBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chris Yerikian</title>
+
+  <meta name="description" content="Chris Yerikian. Builder across coffee, safety, film, and Bitcoin. Co-CEO of Surje Coffee Co. CSP-certified safety leader. Creator." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <header id="top">
-        <nav class="nav-container">
-            <div class="logo"><a href="#top">MyBrand</a></div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button id="themeToggle" aria-label="Toggle dark and light mode">
-                <i class="fas fa-moon"></i>
-            </button>
-        </nav>
-    </header>
+  <header id="top">
+    <nav class="nav-container">
+      <div class="logo"><a href="#top">Chris Yerikian</a></div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Hello, I'm <span class="brand-name">Your Name</span></h1>
-            <p class="hero-subtitle">A creative professional from Rancho&nbsp;Santa&nbsp;Margarita, California, building memorable digital experiences.</p>
-            <a href="#projects" class="cta-button">View My Work</a>
-        </div>
-        <div class="hero-wave"></div>
-    </section>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">What I Do</a></li>
+        <li><a href="#projects">Highlights</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <h2>About Me</h2>
+      <button id="themeToggle" aria-label="Toggle dark and light mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">I’m <span class="brand-name">Chris</span>.</h1>
+      <p class="hero-subtitle">
+        I build across coffee, safety, film, and Bitcoin. I like clean execution, honest systems, and experiences that feel premium.
+      </p>
+
+      <div style="margin-top: 1.2rem; display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap;">
+        <a href="#projects" class="cta-button">See highlights</a>
+        <a href="#contact" class="cta-button" style="background: transparent; color: var(--text); border: 2px solid rgba(255,255,255,0.2);">
+          Work with me
+        </a>
+      </div>
+
+      <div style="margin-top: 1.4rem; opacity: 0.9;">
+        <a class="project-link" href="#" style="margin:0 0.5rem;"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a class="project-link" href="#" style="margin:0 0.5rem;"><i class="fa-brands fa-x-twitter"></i> X</a>
+        <a class="project-link" href="#" style="margin:0 0.5rem;"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+
+    <div class="hero-wave"></div>
+  </section>
+
+  <section id="about" class="section about-section">
+    <div style="text-align:center;">
+      <h2>About</h2>
+    </div>
+
+    <p>
+      I’m Chris Yerikian, based in Southern California. I’m co-CEO of Surje Coffee Co., and I also work in safety and risk.
+      I’m CSP-certified and spend a lot of time turning messy operations into clear systems that actually work.
+    </p>
+    <p>
+      On the creative side, I write and develop film projects, including a feature screenplay set during the early pandemic.
+      I’m also deeply interested in Bitcoin, Lightning, and building products that are useful, durable, and hard to copy.
+    </p>
+  </section>
+
+  <section id="work" class="section projects-section">
+    <div style="text-align:center;">
+      <h2>What I Do</h2>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card" tabindex="0">
+        <h3>Surje Coffee Co.</h3>
         <p>
-            Welcome to my corner of the internet! I'm a passionate professional who loves
-            crafting engaging experiences on the web. Whether I'm designing user interfaces,
-            developing full‑stack applications, or exploring new trends in technology,
-            I bring energy and curiosity to every project. Based in beautiful Rancho Santa Margarita,
-            I'm inspired by California's vibrant culture and landscapes.
+          Co-CEO. Specialty coffee, subscriptions, private events, and product expansion. Experience-driven brand building with premium execution.
         </p>
+        <a href="#" class="project-link" aria-label="Surje Coffee">Surje overview</a>
+      </article>
+
+      <article class="project-card" tabindex="0">
+        <h3>Safety and Risk (CSP)</h3>
         <p>
-            When I'm not coding or designing, you might find me hiking the trails, exploring local
-            coffee shops, or experimenting with the latest web technologies. My mission is to
-            create work that not only looks good but also feels intuitive and meaningful.
+          Risk evaluation, underwriting-style assessments, and practical safety systems. I focus on what reduces incidents and improves outcomes.
         </p>
-    </section>
+        <a href="#" class="project-link" aria-label="Safety and Risk">Safety work</a>
+      </article>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section projects-section">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-            <article class="project-card" tabindex="0">
-                <h3>Project One</h3>
-                <p>A modern responsive website built with HTML, CSS, and JavaScript featuring smooth animations and a clean design.</p>
-                <a href="#" class="project-link" aria-label="View Project One">Learn More</a>
-            </article>
-            <article class="project-card" tabindex="0">
-                <h3>Project Two</h3>
-                <p>An interactive web application that connects people through shared interests, developed using a full‑stack framework.</p>
-                <a href="#" class="project-link" aria-label="View Project Two">Learn More</a>
-            </article>
-            <article class="project-card" tabindex="0">
-                <h3>Project Three</h3>
-                <p>A data visualization dashboard that turns complex information into clear, compelling insights with D3.js.</p>
-                <a href="#" class="project-link" aria-label="View Project Three">Learn More</a>
-            </article>
-        </div>
-    </section>
+      <article class="project-card" tabindex="0">
+        <h3>Film and Story</h3>
+        <p>
+          Feature screenplay development and creative production. Character-first storytelling with grounded emotion and tension.
+        </p>
+        <a href="#" class="project-link" aria-label="Film work">Film work</a>
+      </article>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <h2>Contact</h2>
-        <p>Have a question or want to work together? I'd love to hear from you.</p>
-        <form action="mailto:your.email@example.com" method="POST" enctype="text/plain" class="contact-form">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required />
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required />
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="cta-button submit-button">Send Message</button>
-        </form>
-    </section>
+      <article class="project-card" tabindex="0">
+        <h3>Bitcoin and Lightning</h3>
+        <p>
+          Exploring practical Bitcoin payment rails and product ideas. Interested in real adoption, not hype.
+        </p>
+        <a href="#" class="project-link" aria-label="Bitcoin work">Bitcoin notes</a>
+      </article>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; <span id="currentYear"></span> Your Name. All rights reserved.</p>
-    </footer>
+  <section id="projects" class="section projects-section">
+    <div style="text-align:center;">
+      <h2>Highlights</h2>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="projects-grid">
+      <article class="project-card" tabindex="0">
+        <h3>Operator mindset</h3>
+        <p>
+          I like clean systems: pricing, process, quality control, and execution. The goal is simple: consistent results.
+        </p>
+        <a href="#" class="project-link" aria-label="Operations">Example work</a>
+      </article>
+
+      <article class="project-card" tabindex="0">
+        <h3>Brand building</h3>
+        <p>
+          Premium brand feel without the cringe. Visuals, story, and a standard of taste you can actually maintain.
+        </p>
+        <a href="#" class="project-link" aria-label="Brand">Brand examples</a>
+      </article>
+
+      <article class="project-card" tabindex="0">
+        <h3>Writing and ideas</h3>
+        <p>
+          I write to clarify thinking, and I build to prove it. Coffee, safety, Bitcoin, and story all overlap more than they should.
+        </p>
+        <a href="#" class="project-link" aria-label="Writing">Read more</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div style="text-align:center;">
+      <h2>Contact</h2>
+    </div>
+
+    <p style="text-align:center; max-width: 700px; margin: 0 auto;">
+      If you want to collaborate, hire me, or just connect, send a message. Keep it simple and direct.
+    </p>
+
+    <form action="mailto:your.email@example.com" method="POST" enctype="text/plain" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="cta-button submit-button">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="currentYear"></span> Chris Yerikian. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
